@@ -1,5 +1,11 @@
-# WordPressSharp #
+# WordPressSharp (with .NET Core support) #
 A C# client to interact with the WordPress XML-RPC API
+
+## .NET Core Update ##
+
+Added a .NET Core 2.1 project to build the dll against Kveer.XmlRPC.
+To avoid dependency on ConfigurationManager the WordPressClient constructor
+requires a WordPressSiteConfig in the .NET Core build.
 
 ## Install ##
 I'm working on a Nuget package once I'm done mapping all the WP XML-RPC endpoints.

@@ -185,3 +185,5 @@ $RECYCLE.BIN/
 #*.sitemap
 
 src/WordPressSharp/WordPressSharp.userprefs
+/src/WordPressSharp/.vs/WordpressSharp.Core/v15/Server/sqlite3
+/src/WordPressSharp/.vs/WordpressSharp.Core/DesignTimeBuild
