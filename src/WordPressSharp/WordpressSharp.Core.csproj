@@ -10,6 +10,9 @@
     <Description>A C# library for interacting with the WordPress XML-RPC API under .NET Core 2.1.
 
 Uses the Kveer.XmlRPC port of CookComputing.XmlRPC to support .NET Core. No other dependencies.</Description>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

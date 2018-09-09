@@ -23,10 +23,13 @@ namespace WordPressSharp.Models
         public string Status { get; set; }
 
         [XmlRpcMember("post_date")]
-        public DateTime PublishDateTime { get; set; }
+        public DateTime? PublishDateTime { get; set; }
 
+        [XmlRpcMember("post_date_gmt")]
+        public DateTime? PublishDateTimeGmt { get; set; }
+        
         [XmlRpcMember("post_modified")]
-        public DateTime ModifiedDateTime { get; set; }
+        public DateTime? ModifiedDateTime { get; set; }
 
         [XmlRpcMember("post_content")]
         public string Content { get; set; }
