@@ -17,7 +17,7 @@ namespace WordPressSharp
         /// </summary>
         public IWordPressService WordPressService { get; internal set; }
 
- #if (!NETCOREAPP)
+ #if (!NETSTDORCORE)
 		/// <summary>
 		/// Initializes a new instance of the <see cref="WordPressClient"/> class. It will use the default configuration based on app settings.
 		/// </summary>

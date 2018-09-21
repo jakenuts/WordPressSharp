@@ -12,7 +12,7 @@ namespace WordPressSharp
 	[XmlRpcMissingMapping(MappingAction.Ignore)]
 	public class WordPressSiteConfig
 	{
-#if (!NETCOREAPP)
+#if (!NETSTDORCORE)
 		/// <summary>
 		/// Gets the default configuration. This configuration looks for the following app settings: 
 		/// WordPressUserName, WordPressPassword, WordPressBaseUrl and WordPressBlogId (optional).
@@ -39,7 +39,7 @@ namespace WordPressSharp
 		#region Create default configuration from app settings (WordPressUsername, WordPressPassword, WordPressBaseUrl, WordPressBlogId
 
 
-#if (!NETCOREAPP)
+#if (!NETSTDORCORE)
 		/// <summary>
 		/// Creates the default configuration.
 		/// </summary>
